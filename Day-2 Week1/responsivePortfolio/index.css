@@ -1,0 +1,268 @@
+<<<<<<< HEAD
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  .nav-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+ 
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #0077ff;
+    color: white;
+  }
+  
+  
+  .about {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .about img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .about div {
+    flex: 1;
+  }
+  
+  .projects {
+    padding: 2rem;
+  }
+  .project-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .project-card {
+    flex: 1 1 250px;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: #eee;
+    max-width: 600px;
+    margin: 0 auto 20px auto; 
+    box-shadow: 0px 0px 2px 0px black;
+    border-radius: 3px;
+    flex: 1 1 0; 
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+    flex-grow: 1;
+    gap: 1rem;
+    
+  }
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .contact button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+  }
+  
+
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .nav-links {
+      margin-top: 10px;
+    }
+  
+    .project-grid {
+      flex-direction: column;
+    }
+  }
+=======
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  .nav-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+  
+ 
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #0077ff;
+    color: white;
+  }
+  
+  
+  .about {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .about img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .about div {
+    flex: 1;
+  }
+  
+  .projects {
+    padding: 2rem;
+  }
+  .project-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .project-card {
+    flex: 1 1 250px;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: #eee;
+    max-width: 600px;
+    margin: 0 auto 20px auto; 
+    box-shadow: 0px 0px 2px 0px black;
+    border-radius: 3px;
+    flex: 1 1 0; 
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+
+    flex-shrink: 0;
+    flex-grow: 1;
+    gap: 1rem;
+    
+  }
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  .contact button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+  }
+  
+
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .nav-links {
+      margin-top: 10px;
+    }
+  
+    .project-grid {
+      flex-direction: column;
+    }
+  }
+>>>>>>> 6fa7ff34feaae3416dd84fbca3059960a07b8deb
+  

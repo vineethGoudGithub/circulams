@@ -1,0 +1,71 @@
+<<<<<<< HEAD
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.Outer-div{
+   
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Outer-div h1{
+    height: 50px;
+    width: 50px;
+    border: 6px solid grey;
+    border-radius: 50%;
+    border-right-color: blue;
+    animation-name:loading;
+    animation-direction: inherit;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes loading {
+    0%{
+        transform: rotate(360deg);
+    }    
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+=======
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.Outer-div{
+   
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Outer-div h1{
+    height: 50px;
+    width: 50px;
+    border: 6px solid grey;
+    border-radius: 50%;
+    border-right-color: blue;
+    animation-name:loading;
+    animation-direction: inherit;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes loading {
+    0%{
+        transform: rotate(360deg);
+    }    
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+>>>>>>> 6fa7ff34feaae3416dd84fbca3059960a07b8deb

@@ -1,0 +1,86 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Center content using Flexbox */
+  .aboutSection {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  /* Headings */
+  .aboutSection h2 {
+    font-size: 36px;
+    color: #34495e;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .aboutSection h3 {
+    font-size: 24px;
+    color: #2980b9;
+    margin-top: 20px;
+  }
+  
+  /* Paragraphs */
+  .aboutSection p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Unordered Lists */
+  .aboutSection ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .aboutSection li {
+    font-size: 17px;
+    color: #333;
+  }
+  
+  /* Highlight key items */
+  strong {
+    color: #2c3e50;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .aboutSection {
+      padding: 20px;
+    }
+  
+    .aboutSection h2 {
+      font-size: 28px;
+    }
+  
+    .aboutSection h3 {
+      font-size: 20px;
+    }
+  
+    .aboutSection p, 
+    .aboutSection li {
+      font-size: 16px;
+    }
+  }
+  
